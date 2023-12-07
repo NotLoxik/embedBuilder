@@ -12,13 +12,13 @@ Apart from the JSON editor, it also includes a GUI editor that makes it easier t
 ## Editor param (/?editor=json)
 The GUI editor is used by default. If 'editor' parameter is set with it's value set to "json", the website will use the JSON editor by default instead. Setting the value to anything else other than 'json' will be ignored.
 
-Example URL: https://notloxik.github.io/embedbuilder/?editor=json
+Example URL: https://notloxik.github.io/embedBuilder/?editor=json
 
 
 ## Data param (/?data=...)
 A data param is used to specify the dafault json data to be used when the website loads. **Note** that value of the data param should be URL encoded first, then base64 encoded last because some characters like emojis can't be Base64 encoded alone. Calling the `jsonToBase64()` or `jsonToBase64(json, true)` function does that for you and returns the encoded JSON data.
 
-Example URL: https://notloxik.github.io/embedbuilder/?data=JTdCJTIyZW1iZWQlMjIlM0ElN0IlMjJ0aXRsZSUyMiUzQSUyMkxvcmVtJTIwaXBzdW0lMjIlMkMlMjJkZXNjcmlwdGlvbiUyMiUzQSUyMkRvbG9yJTIwc2l0JTIwYW1ldC4uLiUyMiUyQyUyMmNvbG9yJTIyJTNBMzkxMjklN0QlN0Q
+Example URL: https://notloxik.github.io/embedBuilder/?data=JTdCJTIyZW1iZWQlMjIlM0ElN0IlMjJ0aXRsZSUyMiUzQSUyMkxvcmVtJTIwaXBzdW0lMjIlMkMlMjJkZXNjcmlwdGlvbiUyMiUzQSUyMkRvbG9yJTIwc2l0JTIwYW1ldC4uLiUyMiUyQyUyMmNvbG9yJTIyJTNBMzkxMjklN0QlN0Q
 
 ## Other parameters
 Params that end with `=` in the list below need a value, those that don't will always be truthy when set either with or with no value.
