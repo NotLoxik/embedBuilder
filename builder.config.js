@@ -8,8 +8,8 @@ options = {
     useJsonEditor: false,
     reverseColumns: false,
     allowPlaceholders: false,
-    autoUpdateURL: false,
-    autoParams: false,
+    autoUpdateURL: true, // Automatically update data from the JSON file
+    autoParams: true, // Automatically update data from options menu ex. multi-emebeds
     hideEditor: false,
     hidePreview: false,
     hideMenu: false,
