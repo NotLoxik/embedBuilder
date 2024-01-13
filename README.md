@@ -1,4 +1,4 @@
-# Embed visualizer
+# Embed Builder & Visualizer
 
 You can use this tool to visualize, embed, or message content from either JSON input or through the provided GUI editor. It comes in handy for Discord bot embed commands.
 
